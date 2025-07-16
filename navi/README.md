@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Navigator
 
-## Getting Started
+AI Navigator는 AI 초보자를 위한 통합 추천 및 학습 플랫폼입니다. 한국어 기반의 맞춤형 AI 도구 추천, 프롬프트 작성 가이드, 최신 AI 뉴스 큐레이션 등 다양한 기능을 제공하여, 누구나 쉽고 체계적으로 AI를 활용할 수 있도록 지원합니다.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 프로젝트 개요
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **서비스 비전**: AI 도구 선택에 어려움을 겪는 한국 사용자에게 개인 맞춤형 추천과 실용적인 학습 가이드를 제공합니다.
+- **핵심 가치**: ChatGPT에만 의존하는 사용자가 다양한 AI 생태계로 확장할 수 있도록 돕고, 한국어 최적화 프롬프트와 사용법을 안내합니다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ 주요 기능
 
-## Learn More
+- **스마트 온보딩**: 5단계 질문을 통한 사용자 프로필 생성 및 맞춤 추천
+- **AI 도구 추천 시스템**: 관심사, 목적, 경험 수준 기반 AI 툴 추천 (콘텐츠 창작, 업무 생산성, 학습 교육, 개발 코딩, 마케팅 비즈니스 등)
+- **프롬프트 가이드**: 주요 AI 도구별 한국어 최적화 프롬프트 템플릿 및 단계별 사용법 제공
+- **AI 뉴스 큐레이션**: 해외 주요 AI 뉴스의 한국어 번역/요약 제공 (추후 도입)
+- **사용자 리뷰 및 평가**: 실제 사용자 후기와 평점 제공 (추후 도입)
+- **관리자 대시보드**: 서비스 통계, 툴/콘텐츠 관리 기능 (추후 도입)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🏗️ 기술 스택
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Frontend**: Next.js 13 (App Router), TypeScript, Tailwind CSS
+- **Backend**: NestJS (향후 분리 예정), PostgreSQL, Redis (캐싱)
+- **기타**: 서버사이드 렌더링(SSR), SEO 최적화, 반응형 웹, JWT 인증, 소셜 로그인(추후)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 개발 단계 및 일정
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Phase 1 (MVP)**
+   - 사용자 관리(회원가입, 로그인, 프로필)
+   - 스마트 온보딩 및 기본 추천 시스템
+   - AI 툴 데이터베이스 및 카테고리 분류
+   - 프롬프트 가이드 제공
+2. **Phase 2 (확장)**
+   - AI 뉴스 큐레이션, 사용자 리뷰, 관리자 기능 등
+3. **Phase 3 (고도화)**
+   - 머신러닝 기반 개인화 추천, 고급 커뮤니티, 모바일 최적화 등
+
+---
+
+## 📈 성공 지표
+
+- 온보딩 완료율 80% 이상
+- 추천 툴 클릭률 40% 이상
+- 사용자 리뷰 참여율 30% 이상
+- 월간 활성 사용자(MAU) 단계별 목표 달성
+
+---
+
+## 🤝 기여 방법
+
+1. 이 저장소를 포크(Fork) 후 브랜치를 생성해 작업해주세요.
+2. 커밋 메시지는 명확하게 작성해주세요.
+3. PR(Pull Request) 생성 시, 변경사항과 목적을 상세히 설명해주세요.
+4. 코드 리뷰 및 테스트를 거쳐 병합됩니다.
+
+---
+
+## 📄 라이선스
+
+본 프로젝트는 MIT 라이선스를 따릅니다.
+
+---
+
+## 문의
+
+- 이메일: [your-email@example.com]
+- 이슈 등록: [GitHub Issues](https://github.com/your-repo/issues)
+
+---
+
+> 본 프로젝트는 한국 AI 시장의 대중화와 초보자 친화적 AI 활용 교육을 목표로 합니다. 많은 관심과 기여 부탁드립니다!
