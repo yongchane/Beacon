@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "scrape": "tsx src/scripts/scrape-ai-tools.ts"
+    "lint": "next lint"
   },
   "dependencies": {
     "lucide-react": "^0.525.0",
