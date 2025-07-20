@@ -1,5 +1,3 @@
-import SystemStatus from '@/components/SystemStatus';
-
 export default function AdminPage() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
@@ -9,11 +7,18 @@ export default function AdminPage() {
             시스템 관리
           </h1>
           <p className="text-gray-600 dark:text-gray-400">
-            AI 도구 스크래핑 시스템의 상태를 모니터링하고 관리할 수 있습니다.
+            AI 도구 관리 시스템 페이지입니다.
           </p>
         </div>
 
-        <SystemStatus />
+        <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
+          <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
+            관리 기능
+          </h2>
+          <p className="text-gray-600 dark:text-gray-400">
+            관리 기능이 추가될 예정입니다.
+          </p>
+        </div>
       </div>
     </div>
   );

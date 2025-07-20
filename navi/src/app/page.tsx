@@ -1,4 +1,4 @@
-import { Search, Sparkles, TrendingUp, BookOpen } from "lucide-react";
+import { Search, Sparkles, BookOpen } from "lucide-react";
 
 export default function Home() {
   return (
@@ -113,8 +113,7 @@ export default function Home() {
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
               최신 AI 뉴스
             </h3>
-            <button className="text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 text-sm font-medium flex items-center gap-1">
-              <TrendingUp className="h-4 w-4" />
+            <button className="text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 text-sm font-medium">
               모든 뉴스 보기
             </button>
           </div>
